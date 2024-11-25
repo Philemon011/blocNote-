@@ -1,3 +1,5 @@
+import 'package:blocnote/screens/add_note/add_note_screen.dart';
+import 'package:blocnote/screens/home/home_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,6 +19,10 @@ class MyApp extends StatelessWidget {
       ),
       darkTheme: ThemeData.dark(),
       initialRoute: '/',
+      routes: {
+        HomeScreen.routeName:(_)=>const HomeScreen(),
+        AddNoteScreen.routeName:(_)=>const AddNoteScreen(),
+      },
     );
   }
 }
