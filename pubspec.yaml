@@ -43,6 +43,8 @@ dependencies:
   pretty_dio_logger: ^1.4.0
   reactive_color_picker: ^2.0.1
   reactive_forms: ^17.0.1
+  google_fonts: ^6.2.1
+  flutter_bloc: ^8.1.6
 
 dev_dependencies:
   flutter_test:
